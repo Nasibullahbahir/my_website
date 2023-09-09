@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{ font-family: "bayken";
+    src: url("../fonts/bayken.ttf") format("truetype"),
+         url(" fonts/bayken.woff") format("woff");
+}
+@font-face{
+    font-family: "lalezar";
+    src: url("../fonts/lalezar.ttf") format("truetype"),
+         url("../fonts/lalezar.woff") format("woff");
+
+        
+}
+body{
+    font-family: bayken;
+
+}
+.header{
+    height: 550px;
+    background-image: url("../picture1/images/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    background-position: center;
+    padding-top: 35px;
+    text-align: center;
+    
+
+}
+.header .nev-list{
+    list-style-type: none;
+    text-align: center;
+}
+.header .nev-list .nev-item{
+    display: inline-block;
+    padding: 15px;
+    
+}
+.header .nev-list .nev-item:hover{
+    display: inline-block;
+    color: orange;
+    cursor: pointer;
+}
+.header h1{
+    font-size: 60px;
+    font-family: lalezer;
+    margin-top: 90px;
+}
+.header h1 span{
+    color: orange;
+   
+}
+.header .desc{
+    height: 55px;
+    line-height: 55px;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid white;
+    margin: auto;
+    width: 350px;
+    margin-top:50px ;
+}
+.member{
+    
+    padding: 30px;
+    text-align: center;
+  
+  
+}
+.member-list{
+    list-style-type: none;
+    margin: 30px;
+    
+}
+.member-item{
+    width: 350px;
+    display:inline-block;
+    padding: 20px;
+    box-shadow: 0 0 15px gray;
+    border-radius: 10px 0;
+    text-align: justify;
+   
+    
+   
+}
+.member-pic{
+    width: 100%;
+    margin-top:30px ;
+    
+}
+.member-pic:hover{
+   border-radius: 20px
+    
+}
+
+.h3{
+    text-align: center;
+    padding: 10px;
+}
+.about{
+    height: 700px;
+    background-image: url("../picture1/images/bg.jpg");
+    background-size: cover;
+    padding: 50px;
+    background-color: #373837;
+    background-blend-mode: multiply
+    
+
+
+}
+.circle{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(135, 135, 135, .3);
+    margin: auto;
+    text-align: center;
+    padding: 100px 120px;
+    border-radius: 50%;
+    color: white;
+  
+}
+.circle h2{
+    font-size: 35px;
+}
+.circle p{
+    margin-top:50px;
+}
